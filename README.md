@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### yakwon memo ###
+git 에 source code push 작업 시, no matching mac found 에러 발생해서 ~/.ssh/config 파일에 MACs 필드 추가해서 해결함
+ref: https://stackoverflow.com/questions/46938362/why-can-i-no-longer-run-git-command-error-no-matching-mac-found-client-hmac-m
+수정해도 에러가 나서 https://github.com/settings/keys 에 SKP_IDP_sshKeys(/Users/1004765/.ssh/kya0416kr_id_ed25519_github) 를 다시 등록하고 해결됨
